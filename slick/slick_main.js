@@ -1,0 +1,1 @@
+$('.slick_single-item').slick();

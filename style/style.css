@@ -1,0 +1,277 @@
+
+body {
+  background-image: url(../img/body.jpg);
+}
+
+#wrapper {
+  position: relative;
+  background-color: white;
+  
+  width: 1400px;
+  min-height: 95vh;
+
+  margin: 0 auto;
+  padding-top: 30px;
+  /* padding-bottom: 120px; */
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+/*==================================================== menu =======================================================================*/
+
+#menu_2 {
+  display: none;
+}
+
+nav {
+  width: 1400px;
+  position: fixed; 
+  top: 0;
+
+  z-index: 2;
+}
+
+nav ul {
+  background-color: black;
+
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+
+  padding: 10px 0;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+  color: white;
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/*==================================================== menu =======================================================================*/
+
+/*==================================================== main_section ================================================================*/
+
+#main_section {
+  margin-bottom: 100px;
+}
+
+.main_section_img_1 {
+  width: 500px;
+  height: 300px;
+
+  margin: 0 20px;
+
+  float: left;
+}
+
+.main_section_img_2 {
+  width: 500px;
+  height: 300px;
+
+  margin: 0 20px;
+
+  float: right;
+
+}
+
+#main_section p {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: justify;
+
+  margin: 20px;
+}
+
+#main_section li {
+  font-size: 26px;
+  line-height: 40px;
+  margin-left: 40px;
+}
+
+/*==================================================== main_section ===============================================================*/
+
+/*==================================================== cataloge ===================================================================*/
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+#catolog_section img {
+  width: 500px;
+  height: 450px;
+
+  border: 1px solid black;
+}
+
+#catolog_section p {
+  font-size: 25px;
+}
+
+#catolog_section a {
+  text-decoration: none;
+  color: black;
+}
+
+#catolog_section a:hover {
+  color: red;
+}
+
+.catolog_section_p_margin {
+  margin-bottom: 43px;
+}
+
+.price {
+  font-size: 40px;
+  text-align: center;
+}
+
+/*==================================================== cataloge ===================================================================*/
+
+/*==================================================== types_of_tree ==============================================================*/
+
+.types_of_tree_section_div_img {
+  width: 180px;
+  height: 180px;
+
+  margin: 10px auto;
+}
+
+#types_of_tree_section img {
+  width: 180px;
+  height: 180px;
+}
+
+#types_of_tree_section p {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: justify;
+
+  margin: 10px 20px;
+}
+
+.types_of_tree_section_border {
+  width: 670px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+/*==================================================== types_of_tree ==============================================================*/
+
+/*==================================================== examples_of_works ==========================================================*/
+
+.slick_single-item {
+  border: 1px solid black;
+  width: 650px;
+
+  margin: 0 auto;
+} 
+
+.slick_single-item img {
+  width: 650px;
+  height: 750px;
+} 
+
+/*==================================================== examples_of_works ==========================================================*/
+
+/*==================================================== contact ====================================================================*/
+
+#contact_section p {
+  font-size: 40px;
+  margin: 50px;
+}
+
+/*==================================================== contact ====================================================================*/
+
+/*==================================================== footer =====================================================================*/
+
+footer {
+  width: 1400px;
+
+  /* position: fixed; 
+  bottom: 0; */
+
+  margin: 0 auto;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: black;
+
+  padding: 10px 40px;
+  margin: 0;
+}
+
+footer li {
+  color: white;
+  text-align: center;
+  list-style-type: none;
+
+  font-size: 22px;
+}
+
+/*==================================================== footer =====================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
